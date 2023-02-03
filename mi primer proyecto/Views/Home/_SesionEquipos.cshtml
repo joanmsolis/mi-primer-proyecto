@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Equipos>
+
+@if (Model is not null)
+{
+    <div class="text-center " style="padding-top: 6rem;">
+        <h1>equipo de la pelota dominicana</h1>
+        <p>Lidom dedica el torneo invernar 2022 - 2023 a thomas trocoso</p>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            @foreach (var equipo in Model)
+            {
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="@equipo.imagen" class="card-img-top" alt="imagen equipo" />
+                        <div class="card-body">
+                            <h5 class="card-title">@equipo.Nombre</h5>
+                            <p class="card-text">@equipo.ciuda</p>
+                        </div>
+                        <div class="footer">
+                            <a class="btn btn-primary" href="@equipo.Url" target="_blank">visitar</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+
+        </div>
+
+    </div>
+
+
+
+}

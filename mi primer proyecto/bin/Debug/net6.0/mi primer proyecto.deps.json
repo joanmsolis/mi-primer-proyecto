@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "mi primer proyecto/1.0.0": {
+        "runtime": {
+          "mi primer proyecto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mi primer proyecto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
